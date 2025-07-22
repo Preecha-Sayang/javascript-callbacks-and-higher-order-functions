@@ -5,7 +5,7 @@ const studentScoresRoom3 = [67, 80, 100, 15, 12, 40, 67, 80, 100, 67];
 
 function checkGradeOver70(score) {
   // Start coding here
-  return score >= 70 ? true : false;
+  return score > 70;
 }
 
 function atLeastFive(array, operation) {
